@@ -1,4 +1,19 @@
-.venv/
-.env
+# Python
 __pycache__/
 *.pyc
+
+# Environment
+.env
+backend/.env
+
+# Virtual environment
+.venv/
+
+# ML trained models
+backend/app/ml/models/*.pkl
+
+# Accidentally duplicated backend directory
+backend/app/ml/backend/
+
+# Logs
+*.log
